@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "characterforge"
+version = "0.1.0"
+description = ""
+authors = ["overflowerror <mail@overflowerror.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.36.0"
+python-dotenv = "^1.0.1"
+inquirer = "^3.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
